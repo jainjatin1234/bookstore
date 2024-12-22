@@ -13,7 +13,7 @@ const FreeBook = () => {
     const getBook = async () => {
       try {
         const res = await axios.get(
-          `${import.meta.env.VITE_RENDER_BACKEND_URL}/book/get`
+          'https://bookstorebackend-yerl.onrender.com/book/get'
         );
         const filterBook = res.data.book.filter(
           (book) => book.category === "Free"

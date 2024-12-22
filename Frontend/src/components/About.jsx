@@ -24,15 +24,15 @@ const About = () => {
             <p className="text-[20px]">Developed By:-</p>
             <h1 className="md:text-[70px] md:leading-none text-[40px]  ">
               Ja<span className="text-pink-500">tin </span>
-              Sha<span className="text-pink-500 ">kya</span>
+              Ja<span className="text-pink-500 ">in</span>
             </h1>
             <p className="text-[20px] py-5">
-              Email:- jshakya809@
+              Email:- jainjatin748@
               <span className="text-pink-500 ">gmail.com</span>
             </p>
             <p className="text-[20px] mb-5">
-              Contact:- 735456
-              <span className="text-pink-500 ">2457</span>
+              Contact:- 704900
+              <span className="text-pink-500 ">8969</span>
             </p>
           </div>
         </div>

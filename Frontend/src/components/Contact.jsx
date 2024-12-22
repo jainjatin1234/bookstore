@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const contactDetails = await axios
-        .post(`${import.meta.env.VITE_RENDER_BACKEND_URL}/contact/create`, {
+        .post('https://bookstorebackend-yerl.onrender.com/contact/create', {
           name,
           number,
           email,

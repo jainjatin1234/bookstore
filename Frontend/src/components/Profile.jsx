@@ -15,7 +15,7 @@ const Profile = () => {
     e.preventDefault();
     try {
       const res = await axios.put(
-        `${import.meta.env.VITE_RENDER_BACKEND_URL}/user/updateUser`,
+        'https://bookstorebackend-yerl.onrender.com//user/updateUser',
         {
           fullname: fullname,
           email: email,

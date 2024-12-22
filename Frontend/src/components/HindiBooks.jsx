@@ -11,7 +11,7 @@ const HindiBooks = () => {
     const getHindiBook = async (req, res) => {
       try {
         const books = await axios.get(
-          `${import.meta.env.VITE_RENDER_BACKEND_URL}/book/hindi`
+          'https://bookstorebackend-yerl.onrender.com/book/hindi'
         );
         setHindiBook(books.data.Hindibook);
       } catch (error) {

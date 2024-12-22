@@ -26,7 +26,7 @@ const SignUp = () => {
     };
 
     await axios
-      .post(`${import.meta.env.VITE_RENDER_BACKEND_URL}/user/signup`, userData)
+      .post('https://bookstorebackend-yerl.onrender.com/user/signup', userData)
       .then((res) => {
         if (res.data) {
           toast.success("Signup Successfully");
